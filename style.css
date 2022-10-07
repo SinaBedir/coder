@@ -40,7 +40,7 @@ body {
 
 .main-nav__link {
   display: inline-block;
-  border: 1px solid rgb(105, 69, 2);
+  border: 1px solid #fff;
   text-decoration: none;
   width: 100px;
   text-align: center;
@@ -50,6 +50,7 @@ body {
   padding-bottom: 3px;
   border-radius: 5px;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: #fff;
 }
 
 .main-nav__link:hover {
@@ -61,13 +62,13 @@ body {
   transition: background-color 0.6s;
 }
 
-/* Main CSS */
+/* Main Image CSS */
 #bg-image {
   background-image: url("image/HUKUKLARIM.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 500px;
+  height: 470px;
   width: 100%;
   padding: 10px;
 }
@@ -82,6 +83,33 @@ body {
   color: rgb(15, 15, 15);
 }
 
+/* Main Content CSS */
+.main-content-h2 {
+  text-align: center;
+}
+
+.main-content-nav__items {
+  list-style: none;
+  text-align: center;
+}
+
+.main-content-nav__item {
+  width: 30%;
+  display: inline-block;
+  background-color: #fff;
+  color: #000;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  border: 3px solid rgb(235, 156, 9);
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.main-content-nav__link {
+  display: inline-block;
+  text-decoration: none;
+}
+/* Bottom to Top Icon CSS */
 .icon {
   color: #fc997c;
   position: fixed;
@@ -91,4 +119,11 @@ body {
   background-color: #3e4555;
   border-radius: 5px;
   padding: 5px;
+}
+
+.icon:hover {
+  color: #3e4555;
+  background-color: #fc997c;
+  transition: color 1s;
+  transition: background-color 1s;
 }
