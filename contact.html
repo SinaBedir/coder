@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Font+Name"
+    />
+    <title>İletişim</title>
+  </head>
+  <body>
+    <!-- Header Side -->
+    <header class="main-header" id="main-header">
+      <a href="index.html">
+        <i class="fa-solid fa-scale-balanced fa-2xl main-header__logo"></i>
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav__items">
+          <li class="main-nav__item">
+            <a href="#" class="main-nav__link">Blog</a>
+          </li>
+
+          <li class="main-nav__item">
+            <a href="contact.html" class="main-nav__link">İletişim</a>
+          </li>
+
+          <li class="main-nav__item">
+            <a href="aboutus.html" class="main-nav__link">Hakkımızda</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main-introduction">
+      <h1>İletişim</h1>
+      <p>
+        Şikayet veya önerilerinizi aşağıdaki formu doldurarak bizlere
+        iletebilirsiniz.
+      </p>
+
+      <img
+        src="https://resources.workable.com/wp-content/uploads/2020/10/Effective-workplace-communication-01.png"
+        alt=""
+        width="300px"
+        height="150px"
+      />
+
+      <p>
+        Bildirimlerden telefon ya da mail aracılığıyla haberdar olmak
+        isterseniz, aşağıdaki alanlardan en az birini aktive etmeniz gerekir.
+      </p>
+      <p>
+        "İsim" ve "Soyisim" bilgisi paylaşmak istemezseniz, ikisine de "Anonim"
+        yazabilirsiniz.
+      </p>
+    </main>
+
+    <hr />
+
+    <section>
+      <h2 style="border-bottom: 1px solid #000; display: inline-block">
+        İletişim Formumuz
+      </h2>
+      <form action="register_ok.html">
+        <table>
+          <tr>
+            <td>
+              <label for="firstName">İsim: </label
+              ><span class="required">*</span>
+            </td>
+            <td>
+              <input
+                type="text"
+                id="txtName"
+                name="firstName"
+                placeholder="İsminiz"
+              />
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>
+              <label for="lastName">Soyisim: </label
+              ><span class="required">*</span>
+            </td>
+            <td>
+              <input
+                type="text"
+                id="txtName"
+                name="lastName"
+                placeholder="Soyisminiz"
+              />
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><label for="txtAddress">Adres</label></td>
+            <td>
+              <input
+                type="text"
+                id="txtAddress"
+                name="address"
+                placeholder="Adresiniz"
+              />
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>
+              <label for="txtZipcode"
+                >Posta Kodu<span class="required">*</span></label
+              >
+            </td>
+            <td>
+              <input
+                type="text"
+                id="txtZipcode"
+                name="zipcode"
+                placeholder="Posta Kodunuz"
+              />
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>Şehir</td>
+            <td>
+              <select id="selCity" name="city">
+                <option value="" selected>Seçiniz...</option>
+                <option value="34">İstanbul</option>
+                <option value="10">Ankara</option>
+                <option value="35">İzmir</option>
+                <option value="44">Malatya</option>
+                <option value="27">Eskişehir</option>
+              </select>
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>Cinsiyet<span class="required">*</span></td>
+            <td>
+              <label><input type="radio" name="gender" value="m" />Erkek</label>
+              <label><input type="radio" name="gender" value="f" />Kadın</label>
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>En Sevilen Konu/lar<span class="required">*</span></td>
+            <td>
+              <label
+                ><input type="checkbox" name="color" value="r" />Ticaret</label
+              >
+              <label
+                ><input type="checkbox" name="color" value="g" />Tüketici</label
+              >
+              <label
+                ><input type="checkbox" name="color" value="b" />Ceza</label
+              >
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>
+              <label for="txtPhone"
+                >Telefon<span class="required">*</span></label
+              >
+            </td>
+            <td>
+              <input
+                type="text"
+                id="txtPhone"
+                name="phone"
+                placeholder="Telefon Numaranız"
+              />
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>
+              <label for="txtEmail">Email<span class="required">*</span></label>
+            </td>
+            <td>
+              <input
+                type="text"
+                id="txtEmail"
+                name="email"
+                placeholder="Mailiniz"
+              />
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>
+              <label for="txtPassword"
+                >Şifre<span class="required">*</span></label
+              >
+            </td>
+            <td>
+              <input
+                type="password"
+                id="txtPassword"
+                name="password"
+                placeholder="Şifreniz"
+              />
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>
+              <label for="txtPWVerified"
+                >Şifrenizi Doğrulayın<span class="required">*</span></label
+              >
+            </td>
+            <td>
+              <input
+                type="password"
+                id="txtPWVerified"
+                name="pwVerified"
+                placeholder="Şifrenizi doğrulayın"
+              />
+            </td>
+            <td id="elmPWVerifiedError" class="errorMsg">&nbsp;</td>
+          </tr>
+          <tr>
+            <td>
+              <label for="txtPWVerified">Geribildirim Verin</label>
+            </td>
+            <td>
+              <textarea
+                id="intro"
+                cols="20"
+                rows="2"
+                placeholder="Geribildirimlerinizi heyecanla bekliyoruz :)"
+              ></textarea>
+            </td>
+            <td id="elmPWVerifiedError" class="errorMsg">&nbsp;</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>
+              <button type="submit">Gönder</button>
+              <button type="reset">Temizle</button>
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+        </table>
+      </form>
+      <hr />
+
+      <div class="main-header padding-arranger additional-color">
+        <p>
+          Bize ulaştığınız için teşekkür ederiz, sizleri
+          <b>sıklıkla</b> sitemizde görmekten mutluluk duyarız. &#128512;
+        </p>
+        <p>
+          Eğer sayfamızdan memnum kaldıysanız, sizlerden ricamız, bizi
+          çevrenizle paylaşabilir misiniz? Şimdiden çok teşekkür ederiz
+          &#128525;
+        </p>
+      </div>
+    </section>
+
+    <hr />
+    <!-- Footer Side -->
+    <!-- Footer Side -->
+    <footer id="footer">
+      <div>Copyrigth 2022 &copy; Hukuklarım Blog</div>
+    </footer>
+
+    <a href="#main-header">
+      <i
+        class="fas fa-angle-up icon"
+        style="margin-bottom: 7px; margin-right: 7px"
+      ></i>
+    </a>
+  </body>
+</html>
